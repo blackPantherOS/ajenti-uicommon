@@ -21,15 +21,14 @@
 from ajenti.api                 import *
 from ajenti.ui                  import UIElement, p
 
-@p('plugin')
-@p('title')
-@p('version')
-@p('pluginversion')
-@p('author')
-@p('copyright')
-@p('email')
+@p('plugin',default='',type=str)
+@p('title',default='',type=str)
+@p('version',default='',type=str)
+@p('pluginversion',default='0.1 Pre-alpha',type=str)
+@p('author',default='',type=str)
+@p('copyright',default='Copyright 2015, GNU Affero General Public License',type=str)
+@p('email',default='',type=str)
 @plugin
 class PluginHeader( UIElement ):
     typeid = 'uicommon:header'
-
-
+# end class
