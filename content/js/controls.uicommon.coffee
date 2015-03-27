@@ -1,6 +1,6 @@
 # coding=utf-8
 # ---------------------------------------------------------------------------
-#   MDADM plugin for Ajenti, to manage the MD devices.
+#   UI common for Ajenti, to provide general UI elements.
 #
 #   Copyright (C) 2015 Marc Bertens <m.bertens@pe2mbs.nl>
 #
