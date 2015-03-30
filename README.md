@@ -12,10 +12,10 @@ UI Elements;
 * uicommon:header
   parameters: plugin, title, version, pluginversion, author, copyright, email
 
-  title         = <plugin-title-short>
-  plugin        = <name>
-  version       = <version of the package> 
-  pluginversion = <version of the plugin>
-  author        = <name-author>
-  copyright     = <copyright-message>
-  email         = <email-address-author>
+  title         = str:plugin-title-short
+  plugin        = str:name
+  version       = str:version-of-the-package
+  pluginversion = str:version-of-the-plugin
+  author        = str:name-author
+  copyright     = str:copyright-message
+  email         = str:email-address-author
